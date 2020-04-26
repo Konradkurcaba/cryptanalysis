@@ -1,0 +1,10 @@
+target
+/target
+target/*
+*.*/target/*
+/.idea
+*iml
+credentials.properites
+src/main/resources/credentials.properties
+*.class
+allegro.rest/src/main/resources/credentials.properties
