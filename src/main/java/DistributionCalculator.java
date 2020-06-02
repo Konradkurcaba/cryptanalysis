@@ -27,7 +27,7 @@ public class DistributionCalculator
         return distribution;
     }
 
-    private int findValue(int aPosition,List<Byte> sBox )
+    public int findValue(int aPosition,List<Byte> sBox )
     {
         for (int i = 0; i < 64; i++)
         {
